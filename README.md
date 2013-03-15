@@ -9,3 +9,6 @@ jnuLibrary todo list
 
 @Use
 在chrome商店中搜索暨南大学图书馆豆瓣插件，点击添加至chrome即可。
+
+计划：
+逐步添加对电商网站的支持。
