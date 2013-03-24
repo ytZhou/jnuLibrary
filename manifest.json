@@ -1,12 +1,11 @@
 {
   "name": "暨南大学图书馆豆瓣插件1.0",
-  "version": "1.0",
+  "version": "1.1",
   "description": "暨南大学图书馆豆瓣插件1.0",
   "content_scripts": [
     {
       "matches": ["http://book.douban.com/subject/*","http://202.116.13.244/search~S1*chx?/*"],
-      "js": [ "jnuLibrary.js"],
-      "css":["jnuLibrary.css"]
+      "js": [ "jnuLibrary.js"]
     }
   ],
   "icons": { 
