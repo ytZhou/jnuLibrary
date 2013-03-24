@@ -20,7 +20,7 @@
       "until": {
         /*
           @Fun
-            实现方法的简单继承
+            实现方法和属性的简单继承
         */
         extend: function(target, obj){
           for(var i in obj){
@@ -74,6 +74,13 @@
       isbn: "",
       /*
         @Fun
+          初始化函数
+      */
+      init: function () {
+        this.isbn = this.getISBN();
+      },
+      /*
+        @Fun
           在暨大图书馆某本书的详情页面获取这本书的ISBN号
       */
       getISBN: function () {},
@@ -84,6 +91,11 @@
           isbn  一本书的isbn号
       */
       searchByISBN: function (isbn) {},
+      /*
+        @Fun
+          在某本书的详情页面展示这本书在豆瓣的情况
+      */
+      showMessage: function () {},
     });
 
     //给douban添加方法和属性
@@ -95,7 +107,12 @@
       isbn: "",
       /*
         @Fun
-          在某本书的详情页面展示这本书在豆瓣上的情况
+          初始化函数
+      */
+      init: function () {},
+      /*
+        @Fun
+          在某本书的详情页面展示这本书在暨大的情况
       */
       showMessage: function () {},
       /*
@@ -105,11 +122,6 @@
           isbn  一本书的isbn号
       */
       searchByISBN: function (isbn) {},
-      /*
-        @Fun
-          在豆瓣上某本书的详情页面展示一本书在暨大图书馆的情况
-      */
-      showMessage: function () {}
     });
 
   })(window);
