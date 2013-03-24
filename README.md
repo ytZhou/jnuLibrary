@@ -10,5 +10,8 @@ jnuLibrary todo list
 @Use
 在chrome商店中搜索暨南大学图书馆豆瓣插件，点击添加至chrome即可。下载时，去了REAMDE.md载入chrome中即可。
 
+@Tip
+完全抛弃第一个beta重写，提高了匹配的准确性。代码结构清晰起来了。
+
 计划：
 逐步添加对电商网站的支持。
