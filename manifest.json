@@ -1,11 +1,11 @@
 {
-  "name": "暨南大学图书馆豆瓣插件Beta1.0",
+  "name": "暨南大学图书馆豆瓣插件1.0",
   "version": "1.0",
-  "description": "暨南大学图书馆豆瓣插件Beta1.0",
+  "description": "暨南大学图书馆豆瓣插件1.0",
   "content_scripts": [
     {
       "matches": ["http://book.douban.com/subject/*","http://202.116.13.244/search~S1*chx?/*"],
-      "js": [ "myscript.js"],
+      "js": [ "jnuLibrary.js"],
       "css":["style.css"]
     }
   ],
@@ -17,7 +17,7 @@
   "page_action" :
   {
     "default_icon" : "icon16.png",
-    "default_title" : "暨大图书馆豆瓣插件Beta1.0"
+    "default_title" : "暨大图书馆豆瓣插件1.0"
   },
   "permissions": [  "http://202.116.13.244/*","http://lib.jnu.edu.cn/*" ],
   "manifest_version": 2
