@@ -6,7 +6,7 @@
     {
       "matches": ["http://book.douban.com/subject/*","http://202.116.13.244/search~S1*chx?/*"],
       "js": [ "jnuLibrary.js"],
-      "css":["style.css"]
+      "css":["jnuLibrary.css"]
     }
   ],
   "icons": { 

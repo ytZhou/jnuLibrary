@@ -109,7 +109,16 @@
         @Fun
           初始化函数
       */
-      init: function () {},
+      init: function () {
+        this.isbn = this.getISBN();
+      },
+      /*
+        @Fun
+          在豆瓣某本书的详情页面获取这本书的ISBN号
+      */
+      getISBN: function () {
+        var info = document.getElementById("info");
+      },
       /*
         @Fun
           在某本书的详情页面展示这本书在暨大的情况
